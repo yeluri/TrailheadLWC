@@ -1,0 +1,14 @@
+<template>
+        <lightning-card title="Cycle Details" icon-name="custom:custom31">
+    <div id="waiting" if:false={ready}> Loading.... </div>
+    <div id="ready" if:true={ready}>
+        <div>Name : {name}</div>
+        <div>Description : {description}</div>
+        <div>Category : {category}</div>
+        <div>Material : {material}</div>
+        <div>Price : {price}</div>
+        <div>PictureUrl : {pictureUrl}</div>
+        <div>Something : {Something}</div>
+    </div>
+    </lightning-card>
+</template>
